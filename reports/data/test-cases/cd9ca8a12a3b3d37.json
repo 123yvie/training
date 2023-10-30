@@ -1,0 +1,136 @@
+{
+  "uid" : "cd9ca8a12a3b3d37",
+  "name" : "case1",
+  "fullName" : "testcase.api_test.payment.test_payment_overview.TestPaymentOverview#test_overview_list",
+  "historyId" : "5fa20e4f337006ad379d95003257bec9",
+  "time" : {
+    "start" : 1690456609816,
+    "stop" : 1690456611139,
+    "duration" : 1323
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "newBroken" : false,
+  "newPassed" : false,
+  "retriesCount" : 0,
+  "retriesStatusChange" : false,
+  "beforeStages" : [ {
+    "name" : "init_fixture",
+    "time" : {
+      "start" : 1690456609812,
+      "stop" : 1690456609812,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "步骤1 ==>> 获取sicco-概览信息",
+      "time" : {
+        "start" : 1690456609816,
+        "stop" : 1690456609816,
+        "duration" : 0
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "stepsCount" : 0,
+      "hasContent" : false
+    } ],
+    "attachments" : [ {
+      "uid" : "271e1ac924d2f7b0",
+      "name" : "log",
+      "source" : "271e1ac924d2f7b0.txt",
+      "type" : "text/plain",
+      "size" : 1965
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 1,
+    "hasContent" : true
+  },
+  "afterStages" : [ {
+    "name" : "init_fixture::0",
+    "time" : {
+      "start" : 1690456611143,
+      "stop" : 1690456611143,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "epic",
+    "value" : "Payment"
+  }, {
+    "name" : "feature",
+    "value" : "F&L Payment Management - RT 模块"
+  }, {
+    "name" : "story",
+    "value" : "test_overview_list接口"
+  }, {
+    "name" : "tag",
+    "value" : "@pytest.mark.usefixtures('init_fixture')"
+  }, {
+    "name" : "parentSuite",
+    "value" : "testcase.api_test.payment"
+  }, {
+    "name" : "suite",
+    "value" : "test_payment_overview"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestPaymentOverview"
+  }, {
+    "name" : "host",
+    "value" : "LCN06270592"
+  }, {
+    "name" : "thread",
+    "value" : "24844-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "testcase.api_test.payment.test_payment_overview"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ {
+    "name" : "case_data",
+    "value" : "{'name': 'case1', 'data_url': '/data/test_overview_list.csv', 'request': {'method': 'post', 'url': '/ptapi/overview/list', 'json': {'pageNumber': 1, 'pageSize': 10, 'payoutRound': 'RT_AFC_2022_Sep_01', 'selectedRowKeys': [], 'selectedRows': [], 'status': 'all', 'userId': '3fbe861b6b6841f2b29bc12a2fd7124d', 'year': 2022}, 'data': 'None'}, 'validate': {'code': 0, 'msg': 'success', 'time': 0}}"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ "@pytest.mark.usefixtures('init_fixture')" ]
+  },
+  "source" : "cd9ca8a12a3b3d37.json",
+  "parameterValues" : [ "{'name': 'case1', 'data_url': '/data/test_overview_list.csv', 'request': {'method': 'post', 'url': '/ptapi/overview/list', 'json': {'pageNumber': 1, 'pageSize': 10, 'payoutRound': 'RT_AFC_2022_Sep_01', 'selectedRowKeys': [], 'selectedRows': [], 'status': 'all', 'userId': '3fbe861b6b6841f2b29bc12a2fd7124d', 'year': 2022}, 'data': 'None'}, 'validate': {'code': 0, 'msg': 'success', 'time': 0}}" ]
+}

@@ -1,0 +1,20 @@
+- name: $csv{name}
+  data_url: /data/test_overview_list.csv
+  request:
+    method: post
+    url: /ptapi/overview/list
+    json:
+      pageNumber: $csv{pageNumber}
+      pageSize: $csv{pageSize}
+      payoutRound: $csv{payoutRound}
+      selectedRowKeys: $csv{selectedRowKeys}
+      selectedRows: $csv{selectedRows}
+      status: $csv{status}
+      userId: $csv{userId}
+      year: $csv{year}
+    data: None
+  validate:
+    code: $csv{except_code}
+    time: $csv{except_time}
+    msg: $csv{except_msg}
+

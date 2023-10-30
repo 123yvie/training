@@ -1,0 +1,22 @@
+[32mINFO    [0m log:test_payment_overview.py:20 步骤1 ==>> 获取sicco-概览信息
+[32mINFO    [0m log:rest_client.py:57 接口请求地址 ==>> https://cn-rks-uat.mercedes-benz.com.cn/api/rksBff/ptapi/overview/list
+[32mINFO    [0m log:rest_client.py:58 接口请求方式 ==>> POST
+[32mINFO    [0m log:rest_client.py:60 接口请求头 ==>> {
+    "Authorization": "eyJhbGciOiJIUzUxMiJ9.eyJERVZJQ0UiOiJQQyIsIlBFUlNPTl9DT0RFIjoiYmluZ2JhIiwiVElNRSI6MTY5MDk1NDgwOTU2NCwiZXhwIjoxNjkxMDQxMjA5fQ.otrsqRHUiU6Zra4Y1CLrVKI_HiqlvZtMR2BbzDpd8WF42GAfXfFUBBIU8gO1i8pD4cju5doCqogyrhJyDupCdw"
+}
+[32mINFO    [0m log:rest_client.py:61 接口请求 params 参数 ==>> null
+[32mINFO    [0m log:rest_client.py:62 接口请求体 data 参数 ==>> null
+[32mINFO    [0m log:rest_client.py:63 接口请求体 json 参数 ==>> {
+    "pageNumber": 1,
+    "pageSize": 10,
+    "payoutRound": "RT_AFC_2022_Sep_01",
+    "selectedRowKeys": [],
+    "selectedRows": [],
+    "status": "all",
+    "userId": "3fbe861b6b6841f2b29bc12a2fd7124d",
+    "year": 2022
+}
+[32mINFO    [0m log:rest_client.py:64 接口上传附件 files 参数 ==>> None
+[32mINFO    [0m log:rest_client.py:65 接口 cookies 参数 ==>> null
+[32mINFO    [0m log:client_util.py:33 case1 ==>> 返回结果 ==>> {"code":401,"msg":"exception","data":null,"exceptionInfo":{"exceptionCode":"1002","messageEn":"The user does not have permission to access this API","messageCn":"用户没有访问此API的权限","businessDomain":"RKS API Gateway","others":null}}
+[1m[31mERROR   [0m log:assert_handler.py:23 code状态码错误, 预期结果: 0, 实际结果: 401

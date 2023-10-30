@@ -1,0 +1,23 @@
+INFO     log:test_payment_overview.py:20 步骤1 ==>> 获取sicco-概览信息
+INFO     log:rest_client.py:57 接口请求地址 ==>> https://oasis-uat.mercedes-benz.com.cn/oasis/ptapi/overview/list
+INFO     log:rest_client.py:58 接口请求方式 ==>> POST
+INFO     log:rest_client.py:60 接口请求头 ==>> {
+    "Authorization": "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJPQUFETUlOIiwiaXNzIjoiT0FTSVMiLCJleHAiOjE2OTI2ODM1NDEwMDMsImlhdCI6MTY5MDA5MTU0MX0.Q8ZOt2P_0bG7veC2pywhLFfbfChhp6hultRyIhHlIL_tN2TaMeor7Kx61-b8BimFRof-VUpMi__lx9docqb9JQ"
+}
+INFO     log:rest_client.py:61 接口请求 params 参数 ==>> null
+INFO     log:rest_client.py:62 接口请求体 data 参数 ==>> null
+INFO     log:rest_client.py:63 接口请求体 json 参数 ==>> {
+    "pageNumber": 1,
+    "pageSize": 10,
+    "payoutRound": "RT_AFC_2022_Sep_01",
+    "selectedRowKeys": [],
+    "selectedRows": [],
+    "status": "all",
+    "userId": "3fbe861b6b6841f2b29bc12a2fd7124d",
+    "year": 2022
+}
+INFO     log:rest_client.py:64 接口上传附件 files 参数 ==>> None
+INFO     log:rest_client.py:65 接口 cookies 参数 ==>> null
+INFO     log:client_util.py:34 case1 ==>> 返回结果 ==>> {"code":"0","message":"success","data":{"content":[{"id":397,"payoutRound":"RT_AFC_2022_Sep_01","payoutCode":"RT_AFC_2022_Sep_01_BBAC_MBPC","vinNo":"1","payoutAmountWVat":"23,141.00","status":"Approved","updatedAtCast":"2023/07/17","roundId":"8a74e2b7893f1d24018952fa17a600b0","year":2022,"month":9,"entity":"BBAC","bu":"MBPC"}],"pageable":{"sort":{"empty":false,"sorted":true,"unsorted":false},"offset":0,"pageNumber":0,"pageSize":10,"paged":true,"unpaged":false},"last":true,"totalElements":1,"totalPages":1,"size":10,"number":0,"sort":{"empty":false,"sorted":true,"unsorted":false},"first":true,"numberOfElements":1,"empty":false}}
+INFO     log:assert_handler.py:20 code ==>> 预期结果：0， 实际结果：0
+INFO     log:assert_handler.py:57 msg ==>> 预期结果: success， 实际结果: success

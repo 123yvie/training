@@ -1,0 +1,15 @@
+- name: dealer_list
+  data_url: /data/test_tips_dealerlist.csv
+  request:
+    method: get
+    url: /tipscase/findTipsCases?caseState=1&desc=true&fields=createTime&pageNumber=1&pageSize=10&type=1
+    json: None
+  validate:
+    code: 200
+    pageSize: 10
+
+
+
+
+
+

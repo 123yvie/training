@@ -1,0 +1,16 @@
+- name: $csv{name}
+  data_url: /data/test_tips_label.csv
+  request:
+    method: post
+    url: /tipsTags/save
+    json:
+      id : ''
+      orgId: all
+      tagsDescription: test
+      tagsName: $csv{label_name}
+
+  validate:
+    code: $csv{except_code}
+    msg: $csv{except_msg}
+
+

@@ -1,0 +1,19 @@
+[32mINFO    [0m log:test_tips_create_case.py:15 步骤1 ==>> 创建案例
+[32mINFO    [0m log:rest_client.py:57 接口请求地址 ==>> https://cn-rks-uat.mercedes-benz.com.cn/api/rksBff/tipsTags/save
+[32mINFO    [0m log:rest_client.py:58 接口请求方式 ==>> POST
+[32mINFO    [0m log:rest_client.py:60 接口请求头 ==>> {
+    "Authorization": "eyJhbGciOiJIUzUxMiJ9.eyJERVZJQ0UiOiJQQyIsIlBFUlNPTl9DT0RFIjoiYmluZ2JhIiwiVElNRSI6MTY5MDk1NDgwOTU2NCwiZXhwIjoxNjkxMDQxMjA5fQ.otrsqRHUiU6Zra4Y1CLrVKI_HiqlvZtMR2BbzDpd8WF42GAfXfFUBBIU8gO1i8pD4cju5doCqogyrhJyDupCdw"
+}
+[32mINFO    [0m log:rest_client.py:61 接口请求 params 参数 ==>> null
+[32mINFO    [0m log:rest_client.py:62 接口请求体 data 参数 ==>> null
+[32mINFO    [0m log:rest_client.py:63 接口请求体 json 参数 ==>> {
+    "id": "",
+    "orgId": "all",
+    "tagsDescription": "test",
+    "tagsName": "api新建4"
+}
+[32mINFO    [0m log:rest_client.py:64 接口上传附件 files 参数 ==>> None
+[32mINFO    [0m log:rest_client.py:65 接口 cookies 参数 ==>> null
+[32mINFO    [0m log:client_util.py:33 create_label ==>> 返回结果 ==>> {"code":200,"msg":"success","data":101,"exceptionInfo":null}
+[32mINFO    [0m log:assert_handler.py:20 code ==>> 预期结果：200， 实际结果：200
+[32mINFO    [0m log:assert_handler.py:57 msg ==>> 预期结果: success， 实际结果: success

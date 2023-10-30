@@ -1,0 +1,20 @@
+INFO     log:test_payment_overview.py:20 步骤1 ==>> 获取sicco-概览信息
+INFO     log:rest_client.py:57 接口请求地址 ==>> https://cn-rks-uat.mercedes-benz.com.cn/api/rksBffhttps://cn-rks-uat.mercedes-benz.com.cn/api/rksBff/ptapi/overview/list
+INFO     log:rest_client.py:58 接口请求方式 ==>> POST
+INFO     log:rest_client.py:60 接口请求头 ==>> {
+    "Authorization": "eyJhbGciOiJIUzUxMiJ9.eyJERVZJQ0UiOiJQQyIsIlBFUlNPTl9DT0RFIjoiamlhcWl3IiwiVElNRSI6MTY5MDc2ODYzNjg2NiwiZXhwIjoxNjkwODU1MDM2fQ.TtMsFZHks-w8-GIp_elrerrIrbNxHxQ0vzMJYi9BH45gYtbzT4nn0EIQ4C0ZkG69w4VPZVwZsMz6EmovVG-lVw"
+}
+INFO     log:rest_client.py:61 接口请求 params 参数 ==>> null
+INFO     log:rest_client.py:62 接口请求体 data 参数 ==>> null
+INFO     log:rest_client.py:63 接口请求体 json 参数 ==>> {
+    "pageNumber": 1,
+    "pageSize": 10,
+    "payoutRound": "RT_AFC_2022_Sep_01",
+    "selectedRowKeys": [],
+    "selectedRows": [],
+    "status": "all",
+    "userId": "3fbe861b6b6841f2b29bc12a2fd7124d",
+    "year": 2022
+}
+INFO     log:rest_client.py:64 接口上传附件 files 参数 ==>> None
+INFO     log:rest_client.py:65 接口 cookies 参数 ==>> null

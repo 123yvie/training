@@ -1,0 +1,26 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "name" : "packages",
+  "children" : [ {
+    "name" : "testcase.api_test.payment.test_payment_overview",
+    "children" : [ {
+      "name" : "case1",
+      "uid" : "cd9ca8a12a3b3d37",
+      "parentUid" : "822558290b32dd61b50395c6a87ab427",
+      "status" : "passed",
+      "time" : {
+        "start" : 1690456609816,
+        "stop" : 1690456611139,
+        "duration" : 1323
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "newPassed" : false,
+      "newBroken" : false,
+      "retriesCount" : 0,
+      "retriesStatusChange" : false,
+      "parameters" : [ "{'name': 'case1', 'data_url': '/data/test_overview_list.csv', 'request': {'method': 'post', 'url': '/ptapi/overview/list', 'json': {'pageNumber': 1, 'pageSize': 10, 'payoutRound': 'RT_AFC_2022_Sep_01', 'selectedRowKeys': [], 'selectedRows': [], 'status': 'all', 'userId': '3fbe861b6b6841f2b29bc12a2fd7124d', 'year': 2022}, 'data': 'None'}, 'validate': {'code': 0, 'msg': 'success', 'time': 0}}" ]
+    } ],
+    "uid" : "testcase.api_test.payment.test_payment_overview"
+  } ]
+}

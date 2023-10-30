@@ -1,0 +1,23 @@
+- name: upload_file_order
+  data_url: /data/test_tips_upload_attachment.csv
+  request:
+    method: post
+    url: /case-dict/search-types
+    json: None
+    data:
+      remark: 工单附件
+      fileName: 1.30.png
+      sourceId: 213669823278223360
+      sourceType: WORK_ORDER_ATTACHMENT
+      systemType: tips
+    files:
+      file: .../data/picture/1.30.png
+  validate:
+    code: 200
+    pageSize: $csv{pageSize}
+
+
+
+
+
+

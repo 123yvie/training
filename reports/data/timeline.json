@@ -1,0 +1,30 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "name" : "timeline",
+  "children" : [ {
+    "name" : "LCN06270592",
+    "children" : [ {
+      "name" : "24844-MainThread",
+      "children" : [ {
+        "name" : "case1",
+        "uid" : "cd9ca8a12a3b3d37",
+        "parentUid" : "7d0cb6cab3c1df9b30b897120920f129",
+        "status" : "passed",
+        "time" : {
+          "start" : 1690456609816,
+          "stop" : 1690456611139,
+          "duration" : 1323
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "newPassed" : false,
+        "newBroken" : false,
+        "retriesCount" : 0,
+        "retriesStatusChange" : false,
+        "parameters" : [ "{'name': 'case1', 'data_url': '/data/test_overview_list.csv', 'request': {'method': 'post', 'url': '/ptapi/overview/list', 'json': {'pageNumber': 1, 'pageSize': 10, 'payoutRound': 'RT_AFC_2022_Sep_01', 'selectedRowKeys': [], 'selectedRows': [], 'status': 'all', 'userId': '3fbe861b6b6841f2b29bc12a2fd7124d', 'year': 2022}, 'data': 'None'}, 'validate': {'code': 0, 'msg': 'success', 'time': 0}}" ]
+      } ],
+      "uid" : "7d0cb6cab3c1df9b30b897120920f129"
+    } ],
+    "uid" : "fba04f20fc56b22ba4676218d0a11afb"
+  } ]
+}

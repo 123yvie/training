@@ -1,0 +1,17 @@
+- name: create_label
+  data_url: /data/test_tips_label.csv
+  request:
+    method: post
+    url: /tipsTags/save
+    json:
+      id : ''
+      orgId: all
+      tagsDescription: test
+      tagsName: api新建5
+
+  validate:
+    code: 200
+    msg: success
+
+
+

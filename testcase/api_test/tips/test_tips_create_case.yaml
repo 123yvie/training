@@ -1,0 +1,1752 @@
+- name: $csv{name}
+  data_url: /data/test_tips_create_case.csv
+  request:
+    method: post
+    url: /tipscase/send
+    json:
+      availableOptions:
+        - description: ''
+          type: F
+          group: null
+          code: 1A1
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: CONTROL CODE FOR TECHNICAL CHARACTERISTICS CHINA
+          type: F
+          group: null
+          code: CTQ
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: M274
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 5A1
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: A104
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Baidu CarLife
+          type: F
+          group: null
+          code: 18U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 8XXL
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 梅赛德斯-奔驰紧急呼叫系统
+          type: F
+          group: null
+          code: '351'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 便捷式 USB 适配器
+          type: F
+          group: null
+          code: U84
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: MBUX读心语音助理功能
+          type: F
+          group: null
+          code: '355'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 带驻车定位系统 (PARKTRONIC) 的智能 泊车
+          type: F
+          group: null
+          code: '235'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 轮胎压力流失警告系统
+          type: F
+          group: null
+          code: '477'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 可加热前排座椅
+          type: F
+          group: null
+          code: '873'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 导航地图
+          type: F
+          group: null
+          code: '357'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: LED 高性能大灯
+          type: F
+          group: null
+          code: '632'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 车内照明组件
+          type: F
+          group: null
+          code: '876'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 后排带照明的梳妆镜
+          type: F
+          group: null
+          code: U05
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 燃油箱
+          type: F
+          group: null
+          code: '916'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 带缝线的 ARTICO 皮饰仪表板与车门腰线
+          type: F
+          group: null
+          code: U09
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 用户手册和保养小册-简体中文
+          type: F
+          group: null
+          code: 23B
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 空调增强组件/提升制冷性能
+          type: F
+          group: null
+          code: '919'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 110A
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 车载通信模块 (LTE)，用于 Mercedes me 互联服务
+          type: F
+          group: null
+          code: '362'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 197U
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 可调减震系统的敏捷操控 (AGILITY CONTROL) 悬挂系统
+          type: F
+          group: null
+          code: '485'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 模拟时钟
+          type: F
+          group: null
+          code: '246'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 实时路况信息
+          type: F
+          group: null
+          code: '367'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 后排电动调节前排乘客座椅
+          type: F
+          group: null
+          code: '247'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 可自动防眩目的内部后视镜和驾驶员侧外部后视镜
+          type: F
+          group: null
+          code: '249'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 无钥匙启动 (KEYLESS-GO)
+          type: F
+          group: null
+          code: '889'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 欧V排放系统
+          type: F
+          group: null
+          code: '928'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Technical modifications
+          type: F
+          group: null
+          code: '809'
+          characteristic: null
+          codeOwner: null
+          codeType: MJ
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: M20
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 左舵
+          type: F
+          group: null
+          code: L
+          characteristic: null
+          codeOwner: null
+          codeType: LE
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 车辆设定
+          type: F
+          group: null
+          code: 08U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 环境氛围照明系统
+          type: F
+          group: null
+          code: '891'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: AMG 车身风格组件
+          type: F
+          group: null
+          code: '772'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 旅程咨询服务
+          type: F
+          group: null
+          code: 12U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 4 向腰部支撑
+          type: F
+          group: null
+          code: U22
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 主动式制动辅助系统 (Active Brake Assist)
+          type: F
+          group: null
+          code: '258'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 全景式滑动天窗
+          type: F
+          group: null
+          code: '413'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 前排用于移动设备的无线充电功能
+          type: F
+          group: null
+          code: '897'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Burmester® 环绕立体声音响系统
+          type: F
+          group: null
+          code: '810'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 带 "Mercedes-Benz" 字样的照明迎宾踏板
+          type: F
+          group: null
+          code: U25
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 动态操控选择 (DYNAMIC SELECT)
+          type: F
+          group: null
+          code: B59
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: I2S
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 车辆控制
+          type: F
+          group: null
+          code: 09U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 运动轿车内饰组件
+          type: F
+          group: null
+          code: P14
+          characteristic: null
+          codeOwner: null
+          codeType: PC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 9 速自动变速箱 (9G-TRONIC)
+          type: F
+          group: null
+          code: '421'
+          characteristic: null
+          codeOwner: null
+          codeType: GC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 导航服务
+          type: F
+          group: null
+          code: 01U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 运动轿车外观组件
+          type: F
+          group: null
+          code: P15
+          characteristic: null
+          codeOwner: null
+          codeType: PC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 本地内容
+          type: F
+          group: null
+          code: '700'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 双杯座
+          type: F
+          group: null
+          code: '309'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 3A2
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 驾驶员用荧光夹克
+          type: F
+          group: null
+          code: 70B
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Rohbaulaststufe 2
+          type: F
+          group: null
+          code: LS2
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: GPS 天线
+          type: F
+          group: null
+          code: '270'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 7A5
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 通讯天线
+          type: F
+          group: null
+          code: '274'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 记忆功能组件
+          type: F
+          group: null
+          code: '275'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 防盗警报系统
+          type: F
+          group: null
+          code: '551'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 智能手机互联系统
+          type: F
+          group: null
+          code: 14U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 镀锌方向盘换档拨片
+          type: F
+          group: null
+          code: '431'
+          characteristic: null
+          codeOwner: null
+          codeType: PC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 45.7 厘米 (18 英寸) 5 辐轻合金车轮
+          type: F
+          group: null
+          code: R67
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 低压续跑轮胎
+          type: F
+          group: null
+          code: R66
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 导航与贴心互联组件
+          type: F
+          group: null
+          code: PBG
+          characteristic: null
+          codeOwner: null
+          codeType: PC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 中国市场配置
+          type: F
+          group: null
+          code: '830'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 舒适型前排头枕
+          type: F
+          group: null
+          code: '436'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 豪华型后排头枕
+          type: F
+          group: null
+          code: '437'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Speed and load index 100Y XL
+          type: F
+          group: null
+          code: V69
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: GA7
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 251B
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: CBQN
+          type: F
+          group: null
+          code: CBQN
+          characteristic: null
+          codeOwner: null
+          codeType: NC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 自适应制动灯
+          type: F
+          group: null
+          code: K11
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 10000公里代码
+          type: F
+          group: null
+          code: K17
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 智能手机互联系统mirrorlink
+          type: F
+          group: null
+          code: 15U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: A030
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 深色隔热私密玻璃
+          type: F
+          group: null
+          code: '840'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 玛奇朵米色织物车顶内衬
+          type: F
+          group: null
+          code: 55U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 触摸板
+          type: F
+          group: null
+          code: '446'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: VL
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Steering wheel operation for Active Distance Assist DISTRONIC
+          type: F
+          group: null
+          code: 8U6
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 114A
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Rear seat belt with belt force limiter and softstop
+          type: F
+          group: null
+          code: 8U7
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: VR
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: M014
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 6A2
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 2A8
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 电动喇叭
+          type: F
+          group: null
+          code: B08
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 智能手机互联系统 (Apple CarPlayTM)
+          type: F
+          group: null
+          code: 16U
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: FV
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: SOFTWARE CONTROL FORCE-FREE IN POSITION "D"
+          type: F
+          group: null
+          code: K27
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 预防性安全系统 (PRE-SAFE®)
+          type: F
+          group: null
+          code: '299'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 带 360° 摄像头的智能泊车
+          type: F
+          group: null
+          code: P47
+          characteristic: null
+          codeOwner: null
+          codeType: PC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 夏季轮胎
+          type: F
+          group: null
+          code: R01
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 后视镜组件
+          type: F
+          group: null
+          code: P49
+          characteristic: null
+          codeOwner: null
+          codeType: PC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 开孔型黑色岑木木饰
+          type: F
+          group: null
+          code: '736'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: GA
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 黑色开孔型岑木中央控制台
+          type: F
+          group: null
+          code: '737'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 21A
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 自动空调 (THERMATIC)
+          type: F
+          group: null
+          code: '580'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: F213
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Headunit europe/CIS-states/Monoglei
+          type: F
+          group: null
+          code: 3U1
+          characteristic: null
+          codeOwner: null
+          codeType: SC
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 双 12.3 英寸高清显示屏
+          type: F
+          group: null
+          code: '464'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 电动可折叠外部后视镜
+          type: F
+          group: null
+          code: '500'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 360° 摄像头
+          type: F
+          group: null
+          code: '501'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: 819L
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 车辆识别号
+          type: F
+          group: null
+          code: '986'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 娱乐与舒适配件预留装置
+          type: F
+          group: null
+          code: '866'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: ''
+          type: F
+          group: null
+          code: HA
+          characteristic: null
+          codeOwner: null
+          codeType: null
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Instrument cluster language - Simplified Chinese
+          type: F
+          group: null
+          code: 346B
+          characteristic: null
+          codeOwner: null
+          codeType: DE
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 双 12.3 英寸高清显示屏
+          type: F
+          group: null
+          code: '868'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 风挡玻璃下的识别牌
+          type: F
+          group: null
+          code: '989'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: 梅赛德斯智控系统 GPS
+          type: F
+          group: null
+          code: '506'
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+        - description: Nappa 皮饰多功能运动型方向盘
+          type: F
+          group: null
+          code: L5C
+          characteristic: null
+          codeOwner: null
+          codeType: SA
+          codeTypeAdditionalInfo: null
+          series: null
+          partOfPackage: null
+          packageAlternative: null
+          vouchercheckRelevant: false
+          codePackageInformation: null
+      brand: Mercedes-Benz/PKW
+      elang: zh
+      identifier: LE42131481L285843
+      optionalEquipments: ''
+      finCode: LE42131481L285843
+      vinCode: LE4ZG4JB6KL285843
+      modelSeries: E (213)
+      engineNo1: '274.920'
+      engineNo2: '11'
+      engineNo3: '283455'
+      gearboxNo1: '725.008'
+      gearboxNo2: '21'
+      gearboxNo3: '559069'
+      registrationDate: '2018-12-11'
+      duration: ''
+      mileageKm: '12'
+      mileagePm: '7.5'
+      orderNo: 0886028820
+      productTime: '2018-11-03'
+      salesName: E 300 L 时尚型运动轿车
+      carModel: '213148'
+      bpgId: '1'
+      engineerGroup: '3'
+      engineerGroupName: 诊断和电器
+      dealer: 福建波士运达汽车销售服务有限公司
+      contactTel: ''
+      accountInfo: JIAQIW
+      contactName: 'WANG,JIAQI'
+      contactEmail: jiaqiw@gmail.com
+      contactPhone: '18911788114'
+      contactFaxno: '80889559'
+      repair: <p>*L4 故障修复</p>
+      rLabel: RW
+      r: RW
+      caseTypeLabel: TI
+      caseType: ti
+      caseGroupList:
+        - '10050'
+        - '463'
+      caseCategory: '10050'
+      caseCategoryLabel: 00 整车
+      caseGroup: '463'
+      caseGroupLabel: 00.01 用户信息
+      faultDesc: jiaqi-测试
+      caseIdenLabel: H
+      caseIden: h
+      additionalCode: 附加
+      testItems: <p>L2 检查或测量</p>
+      cause: <p>L3 原因分析</p>
+      dealersName: test
+      dealersTel: '15534342323'
+      dealersPosition: tester
+      ecus:
+        - id: FCB7698EDC4F4BF0B91A1C34D4A08E8F
+          ecuId: 27D5572FB3AE4CA1A9BDD7617F43BE57
+          fcCode: P056200
+          fcText: 车载电网电压过低。 _
+          fcTextEn: The on-board power supply voltage is too low. _
+          ecuText: CPC3AMG
+          ecuCode: N127 - “传动系统”控制单元 (PTCU)CPC3AMG
+          ecuCodeEn: null
+          fcId: FCB7698EDC4F4BF0B91A1C34D4A08E8F
+          diagnoseVersion: ''
+          partCode: ''
+          hardwareVersion: ''
+          softwareVersion: ''
+      symptom:
+        - '23'
+      diagnosis:
+        - key: emergency
+          value: false
+        - key: broken
+          value: false
+        - key: ready
+          value: true
+        - key: trace
+          value: true
+        - key: fix
+          value: false
+      complaint:
+        l11: '<p>[L1-1]客户的原始抱怨<br>&nbsp;</p>'
+        l12: '<p>[L1-2]故障现象的详细描述</p>'
+        l13: '<p>[L1-3]是否有与本故障相关的维修历史和服务措施？</p>'
+        l14: '<p>[L1-4]车辆有无加装和改造</p>'
+        l15: '<p>[L1-5]故障是否可以被重现，是否影响到了车辆的使用功能</p>'
+        l16: '<p>[L1-6]是否有相关的SI，LI和其他的技术通报</p>'
+        l17: '<p>[L1-7]列出本故障所有的可能原因</p>'
+      submitTime: 1692674351826
+      dealersInfo:
+        nation: 中国
+        nationEn: China
+        code: EFZR23
+        name: 福建波士运达汽车销售服务有限公司
+        nameZH: null
+        nameEN: 'Fujian Boshiyunda Auto Sales & Service Co., Ltd.'
+        street: 石竹街道清荣大道中段
+        streetZH: null
+        streetEN: 'Middle Qingrong Avenue, Shizhu Street'
+        postCode: '350300'
+        city: 福州市
+        cityZH: null
+        cityEN: Fu2zhou
+        phone: null
+        fax: '80889559'
+        accountInfo: JIAQIW
+        contactName: 'WANG,JIAQI'
+        contactTel: ''
+        contactEmail: jiaqiw@gmail.com
+        contactPhone: '18911788114'
+        contactFaxno: '80889559'
+        whsGroup: null
+        whsName: null
+        hqGroup: null
+        hqName: null
+      attachmentDTOList: [ ]
+      simple: true
+      rules:
+        vehicleForm:
+          elang:
+            - required: true
+              message: 请填写 "应急语言"
+              trigger: change
+          identifier:
+            - required: true
+              message: 请填写 "识别号"
+              trigger: blur
+            - required: false
+              message: 请输入正确的识别号
+              pattern: { }
+              trigger: blur
+          finCode:
+            - required: true
+              message: 请填写 "车辆识别号（FIN）"
+              trigger: blur
+          vinCode:
+            - required: true
+              message: 请填写 "车辆识别号（VIN）"
+              trigger: blur
+          modelSeries:
+            - required: true
+              message: 请填写 "车型系列"
+              trigger: blur
+          orderNo:
+            - required: true
+              message: 请填写 "订单号"
+              trigger: blur
+          mileageKm:
+            - required: false
+              message: 请填写 "行驶里程"
+        caseTabTitleForm:
+          r:
+            - required: true
+              message: 请填写 "区域"
+              trigger: change
+          caseType:
+            - required: true
+              message: 请填写 "案例类型"
+              trigger: change
+          caseGroupList:
+            - required: true
+              message: 请填写 "功能组"
+              trigger: change
+          faultDesc:
+            - required: true
+              message: 请填写 "故障描述"
+              trigger: change
+        caseTabQuestionForm:
+          l11:
+            - required: true
+              message: '请填写 "[L1-1]客户的原始抱怨"'
+              trigger: change
+            - required: false
+              message: '请不要在 "[L1-1]客户的原始抱怨" 填写电话信息'
+          l12:
+            - required: false
+              message: '请不要在 "[L1-2]故障现象的详细描述" 填写电话信息'
+          l13:
+            - required: true
+              message: '请填写 "[L1-3]是否有与本故障相关的维修历史和服务措施？"'
+              trigger: change
+            - required: false
+              message: '请不要在 "[L1-3]是否有与本故障相关的维修历史和服务措施？" 填写电话信息'
+          l14:
+            - required: true
+              message: '请填写 "[L1-4]车辆有无加装和改造"'
+              trigger: change
+            - required: false
+              message: '请不要在 "[L1-4]车辆有无加装和改造" 填写电话信息'
+          l15:
+            - required: false
+              message: '请不要在 "[L1-5]故障是否可以被重现，是否影响到了车辆的使用功能" 填写电话信息'
+          l16:
+            - required: false
+              message: '请不要在 "[L1-6]是否有相关的SI，LI和其他的技术通报" 填写电话信息'
+          l17:
+            - required: true
+              message: '请填写 "[L1-7]列出本故障所有的可能原因"'
+              trigger: change
+            - required: false
+              message: '请不要在 "[L1-7]列出本故障所有的可能原因" 填写电话信息'
+        caseTabCheckForm:
+          testItems:
+            - required: true
+              message: 请填写 "L2 检查或测量"
+              trigger: change
+            - required: false
+              message: 请不要在 "L2 检查或测量" 填写电话信息
+        caseTabReasonForm:
+          cause:
+            - required: false
+              message: 请不要在 "L3 原因分析" 填写电话信息
+        caseTabFixForm:
+          repair:
+            - required: true
+              message: 请填写 "L4 故障修复"
+              trigger: change
+            - required: false
+              message: 请不要在 "L4 故障修复" 填写电话信息
+        caseTabCreatorForm:
+          dealersName:
+            - required: true
+              message: 请填写 "姓名"
+              trigger: change
+          dealersTel:
+            - required: true
+              message: 请填写 "电话"
+              trigger: blur
+            - required: false
+              type: TELEPHONE
+              message: 请填写正确的 "电话"
+              pattern: { }
+              trigger: blur
+          dealersPosition:
+            - required: true
+              message: 请填写 "职务"
+              trigger: change
+        finishedForm:
+          engineerGroup:
+            - required: true
+              message: 请选择 "相关组"
+              trigger: change
+      isWorkingTIme: false
+      reason: 'liji '
+      isDirectlySend: true
+
+  validate:
+    code: $csv{except_code}
+    msg: $csv{except_msg}
+
+

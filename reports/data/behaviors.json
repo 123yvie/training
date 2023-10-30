@@ -1,0 +1,34 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "Payment",
+    "children" : [ {
+      "name" : "F&L Payment Management - RT 模块",
+      "children" : [ {
+        "name" : "test_overview_list接口",
+        "children" : [ {
+          "name" : "case1",
+          "uid" : "cd9ca8a12a3b3d37",
+          "parentUid" : "4a9e0c26af5af69c6d52e57de62edf50",
+          "status" : "passed",
+          "time" : {
+            "start" : 1690456609816,
+            "stop" : 1690456611139,
+            "duration" : 1323
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "newPassed" : false,
+          "newBroken" : false,
+          "retriesCount" : 0,
+          "retriesStatusChange" : false,
+          "parameters" : [ "{'name': 'case1', 'data_url': '/data/test_overview_list.csv', 'request': {'method': 'post', 'url': '/ptapi/overview/list', 'json': {'pageNumber': 1, 'pageSize': 10, 'payoutRound': 'RT_AFC_2022_Sep_01', 'selectedRowKeys': [], 'selectedRows': [], 'status': 'all', 'userId': '3fbe861b6b6841f2b29bc12a2fd7124d', 'year': 2022}, 'data': 'None'}, 'validate': {'code': 0, 'msg': 'success', 'time': 0}}" ]
+        } ],
+        "uid" : "4a9e0c26af5af69c6d52e57de62edf50"
+      } ],
+      "uid" : "dbf7ca095b831246109ae20fc87e4ccb"
+    } ],
+    "uid" : "f172aa0a5557083d30926d1b432950b3"
+  } ]
+}
